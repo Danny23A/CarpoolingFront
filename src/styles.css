@@ -2,7 +2,6 @@
     --blanco: #FFFF;
     --verde: #327648;
     --negro:#060505;
-    --azul: #1B75BC;
 }
 
 body {
@@ -34,24 +33,23 @@ body {
 }
 
 
-
-.return {
-    color: var(--blanco);
-    font-size: 50px;
-}
-
 .check {
     width: 10vw;
 }
 
 form {
-    width: 600px;
+    width: 500px;
     background-color: var(--blanco);
-    padding: 30px;
+    padding: 40px;
     border-radius: 5px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+.boton{
+    width: 400px;
+    margin-top: 30px;
 }
 
 .registrarse {
@@ -94,6 +92,10 @@ form {
     font-size: 100px;
     padding: 10px;
    
+}
+
+.volver{
+    margin-left: 80%;
 }
 
 .controls1{
