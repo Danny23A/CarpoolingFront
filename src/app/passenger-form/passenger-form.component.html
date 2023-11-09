@@ -10,15 +10,19 @@
             <div *ngIf="mostrarMensaje" class="alert alert-danger">
                 <a href="#" class="alert-link">{{mensaje}}</a>
             </div>
-            <input class="controls" type="text" name="nombre" placeholder="Nombre" formControlName="nombre">
-            <div *ngIf="formularioRegistro.controls['nombre'].invalid && formularioRegistro.controls['nombre'].touched">
+            <input class="controls" type="text" name="primerNombre" placeholder="Primer Nombre" formControlName="primerNombre">
+            <div *ngIf="formularioRegistro.controls['primerNombre'].invalid && formularioRegistro.controls['primerNombre'].touched">
                 Este campo es obligatorio.
             </div>
-            <input class="controls" type="text" name="apellido" placeholder="Apellido" formControlName="apellido">
+            <input class="controls" type="text" name="segundoNombre" placeholder="Segundo Nombre" formControlName="segundoNombre">
+           
+            <input class="controls" type="text" name="primerApellido" placeholder="Primer Apellido" formControlName="primerApellido">
             <div
-                *ngIf="formularioRegistro.controls['apellido'].invalid && formularioRegistro.controls['apellido'].touched">
+                *ngIf="formularioRegistro.controls['primerApellido'].invalid && formularioRegistro.controls['primerApellido'].touched">
                 Este campo es obligatorio.
             </div>
+            <input class="controls" type="text" name="segundoApellido" placeholder="Segundo Apellido" formControlName="segundoApellido">
+            
             <input class="controls" type="text" name="identificacion" placeholder="Numero Identificacion"
                 formControlName="identificacion">
             <div
@@ -33,10 +37,8 @@
             <div *ngIf="formularioRegistro.controls['clave'].invalid && formularioRegistro.controls['clave'].touched">
                 Este campo es obligatorio.
             </div>
-            <legend>Fecha Nacimiento</legend>
-            <input class="controls" type="date" name="fechaNacimiento" formControlName="fechaNacimiento">
-            <div
-                *ngIf="formularioRegistro.controls['fechaNacimiento'].invalid && formularioRegistro.controls['fechaNacimiento'].touched">
+            <input class="controls" type="text" name="telefono" placeholder="Telefono" formControlName="telefono">
+            <div *ngIf="formularioRegistro.controls['telefono'].invalid && formularioRegistro.controls['telefono'].touched">
                 Este campo es obligatorio.
             </div>
             <button (click)="registrarse()" class="boton btn btn-success">Registrarse</button>
