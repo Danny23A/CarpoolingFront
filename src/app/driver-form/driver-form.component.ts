@@ -43,14 +43,17 @@ export class DriverFormComponent implements OnInit {
 
   inicializarFormulario() {
     this.formularioRegistro = this.formBuilder.group({
-      nombre: ['', [Validators.required]],
-      apellido: ['', [Validators.required]],
+      primerNombre: ['', [Validators.required]],
+      segundoNombre: ['', Validators.required],
+      primerApellido: ['', [Validators.required]],
+      segundoApellido: ['', [Validators.required]],
       identificacion: ['', [Validators.required]],
       licencia: ['', [Validators.required]],
       catLicencia: ['', [Validators.required]],
+      fechaExpiracion: ['', [Validators.required]],
       correo: ['', [Validators.required, Validators.email]],
       clave: ['', [Validators.required]],
-      fechaNacimiento: ['', [Validators.required]],
+      telefono: ['', [Validators.required]],
 
     });
   }

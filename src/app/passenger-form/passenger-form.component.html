@@ -37,7 +37,7 @@
             <div *ngIf="formularioRegistro.controls['clave'].invalid && formularioRegistro.controls['clave'].touched">
                 Este campo es obligatorio.
             </div>
-            <input class="controls" type="text" name="telefono" placeholder="Telefono" formControlName="telefono">
+            <input class="controls" type="number" name="telefono" placeholder="Telefono" formControlName="telefono">
             <div *ngIf="formularioRegistro.controls['telefono'].invalid && formularioRegistro.controls['telefono'].touched">
                 Este campo es obligatorio.
             </div>
