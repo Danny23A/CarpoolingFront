@@ -79,16 +79,6 @@ export class DriverFormComponent implements OnInit {
     //Usuario.expiration = this.formularioRegistro.value.fechaExpiracion;
 
 
-    /**this.usuarioServicio.guardarUsuario(usuario)
-       .toPromise()
-       .then(usuario => {
-         this.mostrarOpciones = true;
-       }).catch(error => {
-         this.mostrarMensaje = true;
-         this.mensaje = error.error.messages[0].content;;
- 
-       });*/
-
   }
 
 }
