@@ -66,11 +66,17 @@ export class DriverFormComponent implements OnInit {
 
     //let usuario: Usuario = new Usuario();
 
-    //usuario.name = this.formularioRegistro.value.nombre;
-    //usuario.lastName = this.formularioRegistro.value.apellido;
-    //usuario.identificacion = this.formularioRegistro.value.identificacion;
-    //usuario.email = this.formularioRegistro.value.correo;
+    //usuario.firstName = this.formularioRegistro.value.PrimerNombre;
+    //usuario.secondName = this.formularioRegistro.value.segundoNombre;
+    //usuario.firstSurname = this.formularioRegistro.value.primerApellido;
+    //usuario.secondSurname = this.formularioRegistro.value.segundoApellido;
+    //usuario.dni = this.formularioRegistro.value.identificacion;
+    //usuario.CompanyEmail= this.formularioRegistro.value.correo;
     //usuario.password = this.formularioRegistro.value.clave;
+    //usuario.phone = this.formularioRegistro.value.telefono;
+    //usuario.licenseNumber = this.formularioRegistro.value.licencia;
+    //usuario.category = this.formularioRegistro.value.catLicencia;
+    //Usuario.expiration = this.formularioRegistro.value.fechaExpiracion;
 
 
     /**this.usuarioServicio.guardarUsuario(usuario)
